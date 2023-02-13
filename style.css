@@ -257,8 +257,9 @@ main {
   height: 3.5rem;
 }
 .card .user {
-  display: flex;
+  display: grid;
   align-items: center;
+  grid-template-columns: 3rem 1fr;
   gap: 10px;
 }
 .card .username {
